@@ -15,7 +15,7 @@ file_name = 'sample.abf'
 
 #spike detection/extraction properties
 contact     = None # if None - detect on all electrodes
-type        = "usin"
+type        = "min"
 thresh      = "4"
 filter_freq = (800., 100.)
 n_clusters  = 4
